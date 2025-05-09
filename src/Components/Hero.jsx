@@ -46,11 +46,11 @@ export default function Hero() {
 
         <div className="flex justify-center gap-4 mb-10">
           <a
-            download
-            target="_blank"
-            href="/Sahil_Maurya_Resume.pdf"
-            className="bg-[#a06645] hover:bg-[#864e34] text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105"
-          >
+    href="/resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#a06645] hover:bg-[#864e34] text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105"
+>
             Download Resume
           </a>
           <a
