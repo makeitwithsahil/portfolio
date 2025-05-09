@@ -46,7 +46,7 @@ export default function Hero() {
 
         <div className="flex justify-center gap-4 mb-10">
           <a
-    href="/resume.pdf"
+    href="/Sahil_Maurya_Resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-[#a06645] hover:bg-[#864e34] text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105"
