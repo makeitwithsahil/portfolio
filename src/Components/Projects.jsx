@@ -5,19 +5,11 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     title: 'Password Manager',
-    description: 'A minimal and fast local storage based password manager app with clean UI',
+    description: 'A minimal and fast local storage-based password manager app with clean UI',
     tech: ['React', 'Tailwind CSS', 'Local Storage'],
     github: 'https://github.com/makeitwithsahil/PassHive',
     demo: 'https://passhive.vercel.app/',
     coverImage: '/passhive-cover.png',
-  },
-  {
-    title: 'Portfolio Website',
-    description: 'Personal portfolio built with React and Framer Motion featuring modern UI and smooth transitions.',
-    tech: ['React', 'Tailwind CSS', 'Framer Motion'],
-    github: 'https://github.com/makeitwithsahil/portfolio',
-    demo: 'https://yourportfolio.com',
-    coverImage: '/portfolio-cover.png',
   },
   // More projects can be added here
 ];
