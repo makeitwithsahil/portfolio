@@ -32,7 +32,7 @@ const HireMeSection = () => {
         {/* Call-to-Action Buttons */}
         <div className="flex justify-center gap-8 mb-10 flex-wrap">
           <motion.a
-            href="mailto:sahil@example.com"
+            href="mailto:workwiths4hil@gmail.com"
             whileHover={{ scale: 1.1, boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)' }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-4 bg-[#A67C5B] hover:bg-[#91684A] text-white font-semibold px-8 py-4 rounded-2xl transition-all duration-300 shadow-xl transform hover:translate-x-3"
