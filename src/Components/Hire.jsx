@@ -3,6 +3,19 @@ import { motion } from 'framer-motion';
 import { FaArrowRight, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const HireMeSection = () => {
+  const handleHireClick = () => {
+  if (window.innerWidth < 768) {
+    // Mobile or tablet: open Gmail app
+    window.location.href = "mailto:workwiths4hil@gmail.com";
+  } else {
+    // Laptop/Desktop: scroll to contact section
+    const section = document.getElementById("contact");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+};
+
   return (
     <section
       id="hire"
@@ -31,15 +44,13 @@ const HireMeSection = () => {
 
         {/* Call-to-Action Buttons */}
         <div className="flex justify-center gap-8 mb-10 flex-wrap">
-          <motion.a
-            href="mailto:workwiths4hil@gmail.com"
-            whileHover={{ scale: 1.1, boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)' }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-4 bg-[#A67C5B] hover:bg-[#91684A] text-white font-semibold px-8 py-4 rounded-2xl transition-all duration-300 shadow-xl transform hover:translate-x-3"
-            aria-label="Email Sahil"
-          >
-            Hire Me <FaArrowRight />
-          </motion.a>
+          <motion.button
+  whileTap={{ scale: 0.95 }}
+  onClick={handleHireClick}
+  className="border-2 border-[#A87A58] text-[#A87A58] px-6 py-2 rounded-full hover:bg-[#A87A58] hover:text-white transition transform hover:scale-105 shadow-sm"
+>
+  Hire Me
+</motion.button
           <motion.a
             href="#projects"
             whileHover={{ scale: 1.1, boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)' }}
