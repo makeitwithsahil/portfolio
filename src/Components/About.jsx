@@ -82,15 +82,6 @@ const About = () => {
         <div className="flex flex-wrap gap-4 mt-10 mb-6 justify-center md:justify-start">
           <motion.a
             whileTap={{ scale: 0.95 }}
-            href="/resume.pdf"
-            download
-            className="bg-[#A87A58] text-white px-6 py-2 rounded-full hover:bg-[#8a5f42] transition transform hover:scale-105 shadow-md"
-          >
-            <FaArrowDown className="inline-block mr-2" />
-            Download CV
-          </motion.a>
-          <motion.a
-            whileTap={{ scale: 0.95 }}
             href="#hire"
             className="border-2 border-[#A87A58] text-[#A87A58] px-6 py-2 rounded-full hover:bg-[#A87A58] hover:text-white transition transform hover:scale-105 shadow-sm"
           >
