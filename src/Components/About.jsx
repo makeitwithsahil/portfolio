@@ -48,7 +48,7 @@ const About = () => {
         >
           <Tilt glareEnable={true} glareMaxOpacity={0.4} scale={1.05}>
             <img
-              src="src/assets/pfp.jpg"
+              src="/pfp.jpg"
               alt="Profile"
               className="w-48 h-48 object-cover rounded-full border-4 border-[#A87A58] shadow-xl transition duration-300 hover:scale-105"
             />
