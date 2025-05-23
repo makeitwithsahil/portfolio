@@ -9,7 +9,7 @@ const projects = [
     tech: ['React', 'Tailwind CSS', 'Local Storage'],
     github: 'https://github.com/makeitwithsahil/PassHive',
     demo: 'https://passhive.vercel.app/',
-    coverImage: '/passhive-cover.png',
+    coverImage: '/PasHive-thumbnail.webp',
   },
   // More projects can be added here
 ];
