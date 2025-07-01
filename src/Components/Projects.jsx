@@ -11,7 +11,14 @@ const projects = [
     demo: 'https://passhive.vercel.app/',
     coverImage: '/PasHive-thumbnail.webp',
   },
-  // More projects can be added here
+  {
+    title: 'Social Media Agency Website',
+    description: 'A sleek and modern website for a social media agency, showcasing services and portfolio.',
+    tech: ['React', 'Tailwind CSS', 'Framer Motion'],
+    github: 'https://github.com/makeitwithsahil/Brancha',
+    demo: 'https://brancha.vercel.app/',
+    coverImage: '/brancha-cover.webp',
+  },
 ];
 
 const ProjectSection = () => {
