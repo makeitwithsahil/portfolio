@@ -13,6 +13,15 @@ const projects = [
     category: 'Frontend',
   },
   {
+    title: 'ToDo App',
+    description: 'DoIT is a clean and lightweight task manager built to help you stay focused without distractions.',
+    tech: ['React', 'Tailwind CSS', 'PWA' , 'Framer Motion', 'Local Storage'],
+    github: 'https://github.com/makeitwithsahil/DoIT',
+    demo: 'https://doit-sahilmaurya.vercel.app/',
+    coverImage: '/DoIT-cover.jpg',
+    category: 'Frontend',
+  },
+  {
     title: 'Social Media Agency Website',
     description: 'A sleek and modern website for a social media agency, showcasing services and portfolio.',
     tech: ['React', 'Tailwind CSS', 'Framer Motion'],
