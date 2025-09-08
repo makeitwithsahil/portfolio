@@ -15,7 +15,7 @@ const Skills = () => {
       "Redux", "Tailwind CSS", "Bootstrap", "Next.js", "React Native"
     ],
     "Backend & Dev Tools": [
-      "Node.js", "Express.js", "Nest.js", "NPM", "Firebase",
+      "Node.js", "Express.js", "NPM", "Firebase",
       "MongoDB", "Git", "GitHub", "Vercel"
     ],
     "Scripting & Automation": [
